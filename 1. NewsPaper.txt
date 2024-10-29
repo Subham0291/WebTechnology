@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The NIST Times</title>
+</head>
+<body>
+
+    <h1 align="center">The NIST Times</h1>
+
+    <table width="100%" border="1" cellspacing="10" cellpadding="10">
+        <tr>
+            <td width="33%">
+                <h2>News Heading 1</h2>
+                <ul>
+                    <li>Point 1 related to the news</li>
+                    <li>Point 2 related to the news</li>
+                    <li>Point 3 related to the news</li>
+                </ul>
+            </td>
+            <td width="33%">
+                <h2>News Heading 2</h2>
+                <ul>
+                    <li>Point 1 related to the news</li>
+                    <li>Point 2 related to the news</li>
+                    <li>Point 3 related to the news</li>
+                </ul>
+            </td>
+            <td width="33%">
+                <h2>News Heading 3</h2>
+                <ul>
+                    <li>Point 1 related to the news</li>
+                    <li>Point 2 related to the news</li>
+                    <li>Point 3 related to the news</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

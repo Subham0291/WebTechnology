@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Expenditure List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .expenditure-table {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .expenditure-table th, .expenditure-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .expenditure-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .expenditure-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .total-row {
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Monthly Expenditure List</h1>
+
+    <table class="expenditure-table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th>Amount (USD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Groceries</td>
+                <td>Food</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>Rent</td>
+                <td>Housing</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>Utilities</td>
+                <td>Housing</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Internet</td>
+                <td>Utilities</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Transportation</td>
+                <td>Travel</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Dining Out</td>
+                <td>Food</td>
+                <td>$120</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="2">Total</td>
+                <td>$1470</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+
+    <!-- Name and Contact Info -->
+    <h1 align="center">Your Name</h1>
+    <p align="center">
+        Email: your.email@example.com<br>
+        Phone: (123) 456-7890<br>
+        Address: 123 Main St, City, State, Zip
+    </p>
+
+    <!-- Summary -->
+    <h2>Summary</h2>
+    <p>
+        A brief paragraph that highlights your experience, skills, and goals. This is a quick overview of who you are and what you're looking to achieve in your career.
+    </p>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>Degree, Major</strong> - University Name, City <br>
+            Graduation Year
+        </li>
+        <li>
+            <strong>High School Diploma</strong> - High School Name, City <br>
+            Graduation Year
+        </li>
+    </ul>
+
+    <!-- Experience -->
+    <h2>Experience</h2>
+    <ul>
+        <li>
+            <strong>Job Title</strong> - Company Name, Location <br>
+            Dates of Employment <br>
+            - Key responsibility or achievement #1<br>
+            - Key responsibility or achievement #2<br>
+            - Key responsibility or achievement #3
+        </li>
+        <li>
+            <strong>Previous Job Title</strong> - Previous Company Name, Location <br>
+            Dates of Employment <br>
+            - Key responsibility or achievement #1<br>
+            - Key responsibility or achievement #2
+        </li>
+    </ul>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+    </ul>
+
+    <!-- Projects -->
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <strong>Project Title</strong><br>
+            A brief description of the project, what technologies were used, and what was achieved.
+        </li>
+        <li>
+            <strong>Another Project Title</strong><br>
+            Description of this project, technologies used, and outcome or impact.
+        </li>
+    </ul>
+
+</body>
+</html>
